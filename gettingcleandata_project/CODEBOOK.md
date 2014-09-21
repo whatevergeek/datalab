@@ -21,7 +21,7 @@
   * subject: Each row identifies the subject who performed the activity for each window sample. Its values are numeric (integer) and has a range from 1 to 30. 
   *	activity: This refers to the activity performed by the subject (i.e. "standing", "sitting",  "laying",   "walking",  "walkingDownstairs", "walkingUpstairs"  )
   
-  The following variables contain the average values per subect and activity. All values are numeric (floating point numbers).
+  The following variables contain the average values per subject and activity. All values are numeric (floating point numbers).
   *	tBodyAccMeanX
   *	tBodyAccMeanY
   *	tBodyAccMeanZ
