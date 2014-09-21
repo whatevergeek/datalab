@@ -20,7 +20,7 @@
 2. Variables used in the tidydata.txt output
   * subject: Each row identifies the subject who performed the activity for each window sample. Its values are numeric (integer) and has a range from 1 to 30. 
   *	activity: This refers to the activity performed by the subject (i.e. "standing", "sitting",  "laying",   "walking",  "walkingDownstairs", "walkingUpstairs"  )
-  uni
+  
   The following variables contain the average values per subject and activity. All values are numeric (floating point numbers).
   *	tBodyAccMeanX
   *	tBodyAccMeanY
