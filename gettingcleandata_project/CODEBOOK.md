@@ -14,8 +14,8 @@
   * training_label - contains the loaded data from test/y_test.txt
   * training_set - contains the loaded data from train/X_train.txt
   * training_subject - contains the loaded data from subject_train.txt
-  * activity_label
-  * mean_sd_filter
+  * activity_label - this contains the names of activities (i.e. "standing", "sitting",  "laying",   "walking",  "walkingDownstairs", "walkingUpstairs"  )
+  * mean_sd_filter - refers to the list of measurements that pertains only mean or standard deviation
   
 2. Variables used in the tidydata.txt output
   * subject: Each row identifies the subject who performed the activity for each window sample. Its range is from 1 to 30. 
