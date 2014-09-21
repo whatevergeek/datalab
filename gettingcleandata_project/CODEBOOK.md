@@ -2,24 +2,26 @@
 ### By Paul Lorett B. Amazona
 
 1. Data/variables used in the run_analysis.R script
-  * activity
-  * clean_data
-  * features
-  * merged_label
-  * merged_subject
-  * test_label
-  * test_set
-  * test_subject
-  * tidy_data
-  * training_label
-  * training_set
-  * training_subject
+  * activity - contains the activity labels
+  * clean_data - contains the processed main data (after cleaning)
+  * features - contains the field names of the main data set
+  * merged_label - contains the merged result of test and training labels
+  * merged_subject - contains the merged result of test and training subjects
+  * test_label - contains the loaded data from test/y_test.txt
+  * test_set - contains the loaded data from test/X_test.txt
+  * test_subject - contains the loaded data from test/subject_test.txt
+  * tidy_data - contains the resulting data after getting the average measurements of the subject's activities
+  * training_label - contains the loaded data from test/y_test.txt
+  * training_set - contains the loaded data from train/X_train.txt
+  * training_subject - contains the loaded data from subject_train.txt
   * activity_label
   * mean_sd_filter
   
 2. Variables used in the tidydata.txt output
-  * subject
-  *	activity
+  * subject: Each row identifies the subject who performed the activity for each window sample. Its range is from 1 to 30. 
+  *	activity: This refers to the activity performed by the subject
+  
+  The following variables contains the average values per subect and activity
   *	tBodyAccMeanX
   *	tBodyAccMeanY
   *	tBodyAccMeanZ
