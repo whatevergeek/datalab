@@ -18,10 +18,10 @@
   * mean_sd_filter - refers to the list of measurements that pertains only mean or standard deviation
   
 2. Variables used in the tidydata.txt output
-  * subject: Each row identifies the subject who performed the activity for each window sample. Its range is from 1 to 30. 
-  *	activity: This refers to the activity performed by the subject
+  * subject: Each row identifies the subject who performed the activity for each window sample. Its values are numeric (integer) and has a range from 1 to 30. 
+  *	activity: This refers to the activity performed by the subject (i.e. "standing", "sitting",  "laying",   "walking",  "walkingDownstairs", "walkingUpstairs"  )
   
-  The following variables contains the average values per subect and activity
+  The following variables contain the average values per subect and activity. All values are numeric (floating point numbers).
   *	tBodyAccMeanX
   *	tBodyAccMeanY
   *	tBodyAccMeanZ
