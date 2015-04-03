@@ -10,7 +10,8 @@ while($agency_list.Count -gt 0)
     [void]$agency_map.Add($agency, $agency)
     $agency
 
-    $agency_list2 = $agency_list
+    $agency_list2 = $agency_list | foreach{$_}
+    $agency_list2 = {$agency_list2}.Invoke()
 
     while($agency_list2.Count -gt 0)
     {
