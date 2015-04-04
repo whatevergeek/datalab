@@ -1,9 +1,9 @@
 ## Configuration: Start
 
 $max_distance_percent = 15
-$distance_counter = "C:\Users\PaulLorett\Desktop\FromW510\20150403\CleanAgency\get-ld.ps1"
-$agency_file = "C:\Users\PaulLorett\Desktop\FromW510\20150403\CleanAgency\agency_nm"
-$stopwords_location = "C:\Users\PaulLorett\Desktop\FromW510\20150403\CleanAgency\stopwords.txt"
+$distance_counter = "D:\Laboratory\GitHub\datalab\datalab\CleanAgency\get-ld.ps1"
+$agency_file = "D:\Laboratory\GitHub\datalab\datalab\CleanAgency\agency_nm"
+$stopwords_location = "D:\Laboratory\GitHub\datalab\datalab\CleanAgency\stopwords.txt"
 
 ## Configuration: End
 
