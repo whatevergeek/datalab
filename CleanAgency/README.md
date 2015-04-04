@@ -19,8 +19,8 @@ will just be grouped into: Justice League Agency 1
 Justice League Agency 1 will be used since it's the first entry in the list.
 
 ### Script Usage
-1. Copy the whole  CleanAgency folder to your local working directory
-2. Open clean_agency.ps1 file in a text editor (e.g notepad)
+* Copy the whole  CleanAgency folder to your local working directory
+* Open clean_agency.ps1 file in a text editor (e.g notepad)
 Update to following parameters to ensure the path to your working directory:
 
 *Configuration: Start*
@@ -43,11 +43,11 @@ $agency_file - This contains the list of agency names (this assumes that all lin
 
 $stopwords_location - This list words that won't be part of the comparison. e.g. agency, the
 
-3. To run the script, just execute the following in powershell console:
+* To run the script, just execute the following in powershell console:
 
 .\clean_agency.ps1
 
-4. Once the script completed execution, it will produce two files:
+* Once the script completed execution, it will produce two files:
 
 agency_to_commonname_mapping.csv - this contains all the names mapped to the decided common name
 
